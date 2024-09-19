@@ -4,7 +4,7 @@ import * as core from "@actions/core";
 import * as plist from "plist";
 import * as semver from "semver";
 
-export type XcodeVersionReleaseType = "GM" | "Beta" | "Unknown";
+export type XcodeVersionReleaseType = "Release" | "Beta" | "Unknown";
 
 export interface XcodeVersion {
     version: string;
